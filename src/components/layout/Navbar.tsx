@@ -14,11 +14,6 @@ export function Navbar() {
           <a href="#practices" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Practices</a>
           <a href={RUHANQALAM_URL} className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">RuhanQalam</a>
         </nav>
-        <div>
-          <a href="#contact" className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
-            Engage Us
-          </a>
-        </div>
       </div>
     </header>
   );

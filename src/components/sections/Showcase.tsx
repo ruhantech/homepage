@@ -74,6 +74,8 @@ export function Showcase() {
             <div className="mt-10">
               <a
                 href={RUHANQALAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-primary font-medium hover:text-primary/80 transition-colors group text-sm"
               >
                 View the RuhanQalam landing page

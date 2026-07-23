@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "wouter";
-import { RUHANQALAM_URL } from "@/lib/site";
+import { TASTIR_URL } from "@/lib/site";
 
 export function Navbar() {
   return (
@@ -12,7 +12,7 @@ export function Navbar() {
         <nav className="hidden md:flex items-center gap-8">
           <a href="#mission" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Mission</a>
           <a href="#practices" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Practices</a>
-          <a href={RUHANQALAM_URL} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">RuhanQalam</a>
+          <a href={TASTIR_URL} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Tastir / تسطير</a>
         </nav>
       </div>
     </header>

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { RUHANQALAM_URL } from "@/lib/site";
+import { TASTIR_URL } from "@/lib/site";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
@@ -20,8 +20,8 @@ export function Showcase() {
 
             <div className="relative w-full max-w-sm mx-auto">
               <img
-                src={`${base}/images/ruhanqalam-mockup.png`}
-                alt="RuhanQalam — upload interface"
+                src={`${base}/images/tastir-mockup.png`}
+                alt="Tastir / تسطير — upload interface"
                 className="w-full h-auto rounded-[2rem] shadow-2xl border border-border/50 object-cover"
               />
               <motion.div
@@ -32,8 +32,8 @@ export function Showcase() {
                 className="absolute -bottom-8 -right-6 w-2/3 rounded-2xl shadow-2xl border-2 border-background overflow-hidden"
               >
                 <img
-                  src={`${base}/images/ruhanqalam-screen.png`}
-                  alt="RuhanQalam — word-level validation results"
+                  src={`${base}/images/tastir-screen.png`}
+                  alt="Tastir / تسطير — word-level validation results"
                   className="w-full h-auto block"
                 />
               </motion.div>
@@ -51,14 +51,14 @@ export function Showcase() {
               Featured Case Study
             </span>
             <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6">
-              RuhanQalam.
+              Tastir / تسطير.
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground font-light leading-relaxed">
               <p>
                 Sacred knowledge requires precise transmission. For centuries, the rigorous study of Quranic calligraphy depended entirely on direct feedback from a master.
               </p>
               <p>
-                We built RuhanQalam to scale this critical pedagogical relationship. It is a React application that utilizes bespoke computer vision models to validate handwritten Quranic script.
+                We built Tastir / تسطير to scale this critical pedagogical relationship. It is a React application that utilizes bespoke computer vision models to validate handwritten Quranic script.
               </p>
               <p>
                 By providing immediate, mathematically rigorous feedback on stroke weight, proportion, and spacing, we allow students to practice independently while honoring the exacting standards of traditional methodology.
@@ -73,12 +73,12 @@ export function Showcase() {
 
             <div className="mt-10">
               <a
-                href={RUHANQALAM_URL}
+                href={TASTIR_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-primary font-medium hover:text-primary/80 transition-colors group text-sm"
               >
-                View the RuhanQalam landing page
+                View the Tastir / تسطير landing page
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </a>
             </div>

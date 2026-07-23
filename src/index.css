@@ -51,7 +51,7 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* Light mode — matches RuhanQalam landing page */
+/* Light mode — matches Tastir / تسطير landing page */
 :root {
   --opaque-button-border-intensity: -8;
   --elevate-1: rgba(0,0,0, .03);

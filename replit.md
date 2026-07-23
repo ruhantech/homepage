@@ -6,7 +6,7 @@ A static marketing landing page for RuhanTech, built with React 19, Vite 7, Type
 ## Running the project
 - The "Start application" workflow runs `PORT=5000 pnpm dev` (Vite dev server bound to 0.0.0.0:5000) and drives the Replit preview.
 - `pnpm build` produces a static build in `dist/`; `pnpm preview` serves that build.
-- Optional env var: `VITE_RUHANQALAM_URL` (see `.env.example`) — absolute URL of the separately-deployed RuhanQalam landing page; defaults to `https://ruhanqalam.com` when unset.
+- Optional env var: `VITE_TASTIR_URL` (see `.env.example`) — absolute URL of the separately-deployed Tastir / تسطیر landing page; defaults to `https://tastir.ruhantech.com` when unset.
 - `Dockerfile`, `nginx.conf`, and `build_deploy.sh` are for the project's original (non-Replit) deployment path and are unused by the Replit workflow.
 
 ## Project structure

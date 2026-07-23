@@ -3,8 +3,8 @@ WORKDIR /app
 
 # VITE_* values are inlined into the bundle at build time, so they must be
 # present here rather than at container runtime.
-ARG VITE_RUHANQALAM_URL
-ENV VITE_RUHANQALAM_URL=$VITE_RUHANQALAM_URL
+ARG VITE_TASTIR_URL
+ENV VITE_TASTIR_URL=$VITE_TASTIR_URL
 
 RUN corepack enable
 COPY package.json pnpm-lock.yaml ./

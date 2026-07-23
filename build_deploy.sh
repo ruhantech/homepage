@@ -19,7 +19,8 @@ if [ -f .env ]; then
 fi
 
 DOCKER_HOST=ssh://root@$HOST docker build \
-  --build-arg VITE_RUHANQALAM_URL="$VITE_RUHANQALAM_URL" \
+  --build-arg VITE_TASTIR_URL="$VITE_TASTIR_URL" \
+
   -t ${NAME} .
 
 ssh root@$HOST << EOF

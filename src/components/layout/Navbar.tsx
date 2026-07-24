@@ -13,6 +13,7 @@ export function Navbar() {
           <a href="#mission" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Mission</a>
           <a href="#practices" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Practices</a>
           <a href={TASTIR_URL} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Case Study</a>
+          <a href="mailto:admin@ruhantech.com" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Contact</a>
         </nav>
       </div>
     </header>

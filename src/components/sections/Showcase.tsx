@@ -58,7 +58,7 @@ export function Showcase() {
                 Sacred knowledge requires precise transmission. For centuries, the rigorous study of Quranic calligraphy depended entirely on direct feedback from a master.
               </p>
               <p>
-                We built Tastir to scale this critical pedagogical relationship. It is a React application that utilizes bespoke computer vision models to validate handwritten Quranic script.
+                We built Tastir to scale this critical pedagogical relationship, using bespoke computer vision and AI models to validate handwritten Quranic script.
               </p>
               <p>
                 By providing immediate, mathematically rigorous feedback on stroke weight, proportion, and spacing, we allow students to practice independently while honoring the exacting standards of traditional methodology.
@@ -67,7 +67,7 @@ export function Showcase() {
 
             <div className="mt-12 flex flex-wrap gap-4">
               <span className="inline-flex items-center rounded-full border border-border px-4 py-1.5 text-sm font-medium text-foreground">Computer Vision</span>
-              <span className="inline-flex items-center rounded-full border border-border px-4 py-1.5 text-sm font-medium text-foreground">React</span>
+              <span className="inline-flex items-center rounded-full border border-border px-4 py-1.5 text-sm font-medium text-foreground">AI</span>
               <span className="inline-flex items-center rounded-full border border-border px-4 py-1.5 text-sm font-medium text-foreground">EdTech</span>
             </div>
 
